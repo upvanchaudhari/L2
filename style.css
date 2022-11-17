@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background-color:rgb(97, 139, 150)
+
+  }
+  .head 
+  {
+    margin-top: 1rem;
+  }
+  .box 
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form
+   {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 4px 10px gray;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .input
+   {
+    padding: 10px 15px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+  label
+   {
+    font-size: 18px;
+    letter-spacing: 1.4px;
+  }
+  .tableForm
+   {
+    margin-top: 10px;
+  }
+  .btn
+   {
+    background-color: rgb(136, 31, 80);
+    color: rgba(255, 255, 255, 0.87);
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  input:invalid:focus {
+    border: 2px solid rgb(255, 204, 0);
+  }
+  
+  .table {
+    background-color: rgb(63, 30, 147);
+    border: 2px solid rgb(37, 15, 15);
+    margin: 40px auto;
+  }
+  
+  .td,
+  .th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .subHead {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+
+
+
+
+
+  /* ******************end of css ******************** */
